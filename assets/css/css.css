@@ -1,0 +1,1405 @@
+/* defult format */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* outline: 1px solid; */
+}
+
+img {
+    max-width: 100%;
+}
+
+
+body {
+    /* font-family: 'Cairo', sans-serif !important; */
+    overflow-x: hidden;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+
+    background-color: #FBFBFB;
+
+}
+
+
+/* ----------------------------------------------darkbar------------------------------------------------- */
+.darkbar {
+    background-color: #2d3e50;
+    font-size: 15px;
+}
+
+.langbar a:first-child {
+    color: #da1d35;
+}
+
+.langbar a:last-child {
+    color: #576c83;
+    padding-right: 5px;
+    border-right: #4e637a 1px solid;
+}
+
+.social a {
+    margin: 0px 5px;
+    font-size: 20px;
+    color: white;
+
+}
+
+.navcontact a {
+    color: white;
+    border-right: #4e637a 1px solid;
+    font-size: 15px;
+}
+
+.dropdown-menu {
+    background-color: #fff;
+}
+
+.dropdown-item {
+    color: #000 !important;
+    background-color: transparent;
+}
+
+
+.navcontact a span {
+    margin: 0px 5px;
+}
+
+.logintopmenu {
+    width: 70%;
+    right: 0;
+    color: #4c4c4c;
+}
+
+.logintopmenu a {
+    font-size: 20px;
+    margin: 5px 0px;
+    border-bottom: #aeaeae 1px solid;
+    padding: 10px 2px;
+
+}
+
+.logintopmenu a:last-child {
+    border-bottom: none;
+
+}
+
+
+.logintopmenu a i {
+    font-size: 20px;
+    color: #aeaeae;
+}
+
+/* End darkbar */
+
+.titleh1 {
+    border-bottom: rgb(209, 208, 208) 1px solid;
+}
+
+.TitleBorder {
+    border-bottom: blue 1px solid;
+}
+
+/* ----------------------------------------------nav------------------------------------------------- */
+nav {
+    background: #f9f9f9;
+    margin: 0px;
+}
+
+.ulnav {
+    font-size: 20px;
+}
+
+.nav-link {
+    color: black;
+    border-left: #f3f3f3 1px solid;
+    padding-bottom: 20px;
+}
+
+.nav-link:hover {
+    color: #e31d24;
+    border-bottom: 1px #e31d24 solid;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .nav-link {
+        font-size: 15px;
+
+    }
+
+}
+
+.active a {
+    color: #e31d24;
+    border-bottom: 1px #e31d24 solid;
+}
+
+.contactlink {
+    border: none;
+}
+
+.lastlink {
+    border: none;
+}
+
+
+.lastlink:hover {
+    border-bottom: 1px #2d3e50 solid;
+}
+
+.lastlink {
+    text-align: center;
+}
+
+.lastlink button {
+    background-color: #2d3e50;
+    padding: 0px 20px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px #2d3e50;
+    border: #2d3e50;
+    align-content: center;
+}
+
+.regrest {
+    margin-right: 100px;
+    border: none;
+}
+
+.navbar-toggler button {
+    background-color: #0B0D1D;
+
+}
+
+/* .navbar-toggler {
+    background-color: #0B0D1D;
+}
+.navbar-toggler span {
+    background-color: rgb(182, 179, 179);
+}
+ */
+/* End Nav */
+/* ----------------------------------------------header------------------------------------------------- */
+.carousel-item {
+    background: url(../img/BG.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 100px 0px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    /* height: 100%; */
+}
+
+.headertxt {
+    padding: 100px 105px;
+    line-height: 35px;
+
+}
+
+.headertxt h3 {
+    color: brown;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.headertxt p {
+    font-size: 20px;
+    color: black;
+    max-width: 40%;
+    /* max-height: 150px; */
+}
+
+.headertxt button {
+    background-color: #2d3e50;
+    border: white 1px solid;
+    box-shadow: 2px 2px 2px 2px #fafbfc;
+    padding: 1px 60px;
+    color: white;
+    margin: 0;
+}
+
+/* @media screen and (max-width: 1024px) {
+    .headertxt p {
+        font-size: 20px;
+        color: black;
+        max-width: 40%;
+        height: auto !important;
+    }
+    
+} */
+
+/* .carousel-indicators{} */
+
+/* ----------------------------------------------header two------------------------------------------------- */
+.headertwo {
+    background-color: #f4f4f4;
+    background: url(../img/about.png) center center no-repeat;
+    background-size: cover;
+    line-height: 40px;
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+.header2txt {
+    height: 350px;
+    text-align: center;
+
+}
+
+.header2txt p {
+    padding: 90px 0px 0px 30px;
+    font-weight: bold;
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    .headertwo {
+        line-height: 30px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .header2txt p {
+        line-height: 30px;
+        padding: 10px 0px 0px 0px;
+
+    }
+}
+
+.marktext {
+    color: #a40f35;
+    background: transparent;
+}
+
+/* end header */
+/* ----------------------------------------------article------------------------------------------------- */
+.arti {
+    background: #fbfbfb;
+    margin-top: 50px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+
+}
+
+.lead h1 {
+    color: #a11116;
+    font-weight: bold;
+}
+
+.artititle {
+    border-bottom: #a11116 2px solid;
+}
+
+.rowlead .btn {
+    color: #aeaeae;
+    font-size: 15px;
+}
+
+.lead {
+    border-bottom: #f2f2f2 2px solid;
+}
+
+.articol {
+    background-color: #ffffff;
+    border: #ededed 3px solid;
+    /* box-shadow: 2px 2px 2px 2px grey; */
+    margin: 20px 0px;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.slick-slide {
+    display: none;
+    float: left;
+    height: auto;
+    min-height: auto;
+}
+
+.heart {
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    font-size: 20px;
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+    background-color: #2d3e50;
+    text-align: center;
+    color: #f2f2f2;
+    border: #f2f2f2 1px solid;
+    padding-top: 2px;
+
+}
+
+.heart .far,
+.heart .fas {
+    line-height: inherit;
+
+}
+
+.artictitle {
+    background-color: #2d3e50;
+    color: #fdfdfa;
+    padding: 15px 0px;
+}
+
+.heartart {
+    font-size: 20px;
+    border-radius: 50px;
+    width: 35px;
+    height: 35px;
+    background-color: #2d3e50;
+    text-align: center;
+    color: #f2f2f2;
+    border: #f2f2f2 1px solid;
+    padding-top: 2px;
+
+}
+
+.articol img {
+    padding: 2px;
+}
+
+.articol h4 {
+    color: #a70e12;
+    margin: 10px 0px;
+}
+
+.articol h3 {
+    color: #a70e12;
+    /* margin: 10px 0px; */
+}
+
+.articol p {
+    font-size: 15px;
+    padding: 0px 5px;
+    margin-bottom: 20px;
+}
+
+.artibutt {
+    background-color: #2d3e50;
+    padding: 10px 40px;
+    color: #fcfdff;
+    font-size: 17px;
+    justify-content: center;
+    border: none;
+}
+
+@media screen and (max-width: 1024px) {
+    .artibutt {
+        padding: 10px;
+
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .artibutt {
+        margin: 0px 20px 0px 0px;
+    }
+}
+
+/* end article */
+/* ----------------------------------------------Donation------------------------------------------------- */
+/* title */
+.Donationtitle {
+    background: #fbfbfb;
+    text-align: center;
+    color: maroon;
+}
+
+.titleh1center {
+    border-bottom: rgb(224, 223, 223) 2px solid;
+}
+
+.titleh1center h1 span {
+    border-bottom: solid maroon;
+}
+
+/* search */
+.orderDonation {
+    background-color: #f5f5f5;
+    padding-top: 10px;
+}
+
+.selectrow {
+    margin-bottom: 20px;
+}
+
+#townselect {
+    border-radius: 50px;
+    background: #ffffff;
+
+}
+
+#townselect select {
+    -webkit-appearance: none;
+    width: 100%;
+    padding: 20px 10px;
+    position: relative;
+    z-index: 1;
+    border: none;
+    opacity: .4;
+}
+
+#townselect i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 50px;
+    border: #f4f4f4 1px solid;
+    padding: 5px 20px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    z-index: .9;
+
+}
+
+#bloodtype {
+    border-radius: 50px;
+    background: #ffffff;
+}
+
+#bloodtype select {
+    -webkit-appearance: none;
+    width: 100%;
+    padding: 20px 10px;
+    position: relative;
+    z-index: 1;
+    border: none;
+    opacity: .4;
+}
+
+#bloodtype i {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 50px;
+    border: #f4f4f4 1px solid;
+    padding: 5px 20px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    z-index: .9;
+
+}
+
+.buttsearch button {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: none;
+    font-size: 25px;
+    text-align: center;
+}
+
+@media screen and (max-width: 575px) {
+    #bloodtype {
+        margin-bottom: 15px;
+    }
+
+    #townselect {
+        margin-bottom: 15px;
+    }
+
+}
+
+
+/* detail */
+
+
+.morebutt button {
+
+    background-color: #2d3e50;
+    color: white;
+    padding: 10px 60px;
+    text-align: center;
+    font-size: 20px;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 425px) {
+    .morebutt button {
+        padding: 10px 50px;
+        font-size: 20px;
+    }
+}
+
+/* ----------------------------------------------contactus------------------------------------------------- */
+.cont {
+    background: url(../img/call.jpg);
+    background-size: cover;
+    margin-top: 20px;
+    height: 350px;
+}
+
+.cont h2 {
+    color: #9f1f23;
+    margin: 40px 0px;
+    font-weight: bold;
+}
+
+.cont h2 span {
+    border-bottom: #9f1f23 1px solid;
+}
+
+.cont p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.callnumber {
+    color: white;
+    background: #3ab54a;
+    border-radius: 100px;
+    font-size: 20px;
+    line-height: 0px;
+    width: 55%;
+    position: relative;
+    padding: 39px 20px;
+    text-align: right;
+
+}
+
+.callnumber img {
+    position: absolute;
+    left: -10;
+    top: 0;
+    width: 30%;
+}
+
+@media screen and (max-width: 1024px) {
+    .callnumber img {
+        left: -15;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .callnumber {
+        width: 80%;
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .callnumber {
+        font-size: 18px;
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .callnumber {
+        font-size: 20px;
+        width: 55%;
+    }
+}
+
+@media screen and (max-width: 470px) {
+    .callnumber {
+        font-size: 20px;
+        width: 70%;
+
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .callnumber {
+        font-size: 20px;
+        width: 100%;
+
+    }
+}
+
+/* end contactus  */
+/* ----------------------------------------------bank blood app------------------------------------------------- */
+.app {
+    background: url(../img/BG-phone.png);
+    background-size: cover;
+    margin-top: -9px;
+    padding: 50px 0px;
+}
+
+.apptxt {
+    padding: 50px 0px 0px 50px;
+}
+
+.apptxt h1 {
+    color: #484344;
+}
+
+.apptxt h4 {
+    padding-top: 20px;
+    line-height: 45px;
+    color: #828080;
+}
+
+.apptxt p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    color: #6f6b6c;
+}
+
+.apptxt {
+    padding: 25px;
+}
+
+.apptxt img {
+    margin: 0px 10px;
+}
+
+/* ----------------------------------------------footer------------------------------------------------- */
+footer {
+    background: #1a1f25;
+    color: #d0d3d8;
+    padding-top: 50px;
+}
+
+.footertext h3 {
+    padding: 10px 0px;
+}
+
+.footertext p {
+    line-height: 30px;
+    padding-left: 80px;
+    font-size: 15px;
+}
+
+@media screen and (max-width: 768px) {
+    .footertext p {
+        padding-left: 0px;
+
+    }
+
+}
+
+
+.footerpage a {
+    color: #d0d3d8;
+    line-height: 40px;
+
+
+}
+
+.mainpage {
+    color: #df1f2a !important;
+}
+
+.store h5 {
+    color: #df1f2a !important;
+    padding-bottom: 50px;
+}
+
+.store img {
+    padding: 10px 0px;
+}
+
+/* ----------------------------------------------darkfooter------------------------------------------------- */
+.darkfooter {
+    /* max-height: 150px; */
+    background-color: #14171c;
+    color: #cfd0d2;
+}
+
+.darkfooter a {
+    margin-left: 10px;
+    font-size: 25px;
+    color: #fbfcfb;
+}
+
+.darkfooter p a {
+    font-size: 16px;
+    color: #df1f2a;
+}
+
+/* EndFooter */
+
+/* ----------------------------------------------regrest  page------------------------------------------------- */
+.reglink {
+    text-align: right;
+}
+
+.loginlink {
+    text-align: left;
+    color: #d79b3d;
+}
+
+.lastlinkpages button {
+    padding: 0px 50px;
+    margin: 0px 150px 0px 0px;
+}
+
+.regpage {
+    margin-top: 10px;
+    box-shadow: 20px 2px 2px 2px #eef0ef;
+    background-color: #fbfbfb;
+}
+
+.regrow {
+    background-color: #fff;
+    padding: 0px 70px;
+}
+
+.regfields input {
+    width: 100%;
+    padding: 20px 10px;
+    font-size: 25px;
+    margin: 10px 0px;
+    background: #fbfbfb;
+    border: none;
+
+}
+
+/* 
+.townlist {
+    position: relative;
+}
+
+.townlist select {
+    position: absolute;
+    left: 10px;
+    top: 20px;
+    background-color: transparent;
+    justify-content: center;
+    border: none;
+    width: 100%;
+    height: 50%;
+} */
+
+.regbut {
+    text-align: center;
+
+}
+
+.regbut button {
+    background-color: #3ab54a;
+    width: 70%;
+    color: #fff;
+    font-size: 20px;
+    padding: 10px 0px;
+    margin-bottom: 30px;
+}
+
+/* ----------------------------------------------login  page------------------------------------------------- */
+.loginpage {
+    background-color: #fbfbfb;
+    margin: 20px 0px;
+}
+
+
+.loginpagerow {
+    background-color: #fff;
+    font-size: 25px;
+    padding: 50px 0px 70px 0px;
+}
+
+.loginpagerowimg {
+    text-align: center;
+}
+
+.loginrowin {
+    margin: 10px 50px;
+}
+
+.loginrowin input {
+    width: 100%;
+    padding: 15px 10px;
+    background-color: #fbfbfb;
+    border: none;
+    box-shadow: 1px 1px 1px 1px rgba(128, 128, 128, 0.582);
+    margin: 10px 0px;
+}
+
+.loginrowa {
+    font-size: 20px;
+}
+
+.loginrowa a {
+    color: #000;
+
+}
+
+.loginrowa i {
+    color: #ffa601;
+}
+
+.loginbutrow {
+    margin-top: 50px;
+}
+
+.loginbut button {
+    background-color: #3ab54a;
+    width: 80%;
+    color: #fff;
+    font-size: 20px;
+    padding: 15px;
+
+}
+
+.regrestbut button {
+    background-color: #2d3e50;
+    width: 80%;
+    color: #fff;
+    font-size: 20px;
+    padding: 15px;
+
+}
+
+/* ----------------------------------------------articale details page------------------------------------------------- */
+.articaledetailspage {
+    margin: 20px 0px 0px;
+}
+
+.articaleimg {
+    width: 100%;
+    text-align: center;
+}
+
+.articaleliketitle {
+    background-color: #2d3e50;
+    color: #fdfdfa;
+    padding: 15px 0px;
+}
+
+
+.articalelike {
+    border-radius: 50%;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 25px;
+    border: #a1aeba 1px solid;
+    padding-top: 5px;
+}
+
+.articaleheart {
+    padding: unset;
+}
+
+.articalepra {
+    background-color: #ffffff;
+    font-size: 20px;
+    line-height: 40px;
+    margin: 30px 0px;
+}
+
+.articalepra1 {
+    margin-bottom: 50px;
+}
+
+
+@media screen and (max-width: 425px) {
+    .articaleliketitle i {
+        width: 30px;
+        height: 30px;
+        font-size: 20px;
+        border-radius: 50%;
+    }
+
+    .articalelike h1 {
+        font-size: 5px;
+
+    }
+}
+
+/* ----------------------------------------------contact page------------------------------------------------- */
+.contactbar {
+    margin: 20px 0px 50px 0px;
+}
+
+.contactsecpage {
+    margin-top: 20px;
+
+}
+
+.callus {
+
+    font-size: 20px;
+}
+
+.contactsecpage-title p {
+    background: #2d3e50;
+    color: white;
+    padding: 10px 0px;
+    margin: 0px;
+    font-size: 20px;
+
+
+}
+
+.callusimg {
+    background: #fff;
+    border: #f2f2f2 1px solid;
+    margin: 0px;
+    padding: 0px;
+    /* height: 150%; */
+}
+
+.callusimg img {
+    width: 100%;
+    padding: 50px 100px;
+}
+
+.callusp {
+    background: #fff;
+    border-right: #f2f2f2 1px solid;
+    border-bottom: transparent 1px solid;
+    border-left: #f2f2f2 1px solid;
+    padding: 0px 30px 0px 0px;
+}
+
+.callusi {
+    background: #fff;
+    border-right: #f2f2f2 1px solid;
+    border-bottom: transparent 1px solid;
+    border-left: #f2f2f2 1px solid;
+}
+
+.callusp2 {
+    background: #fff;
+    border-right: #f2f2f2 1px solid;
+    border-bottom: transparent 1px solid;
+    border-left: #f2f2f2 1px solid;
+    color: #e02426;
+}
+
+.callusi {
+    background: #fff;
+    border-bottom: #f2f2f2 1px solid;
+    font-size: 50px;
+}
+
+.callusi i {
+    margin: 0px 10px;
+}
+
+
+
+.inputform {
+    background: #fff;
+    font-size: 20px;
+    border: #f2f2f2 1px solid;
+    padding: 10px 10px;
+}
+
+.inputform input {
+
+    padding: 5px;
+    margin: 0px 0px 17px 0px;
+}
+
+.inputform input:last-child {
+    height: 150px;
+}
+
+
+.contactform button {
+    background: #2d3e50;
+    color: white;
+    padding: 10px 0px;
+    margin: 0px;
+    font-size: 20px;
+
+}
+
+
+
+
+
+/* ----------------------------------------------Donation-order page------------------------------------------------- */
+.donationorderbar {
+    background: #fbfbfb;
+    margin-top: 30px;
+}
+
+.ordersec .container {
+    background-color: #fff;
+    padding: 20px 30px;
+
+}
+
+.ordercol {
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
+.orderlastrow {
+    font-size: 20px;
+    padding: 10px 15px;
+}
+
+.ordertitle {
+    background-color: #f4f4f4;
+
+}
+
+.orderdetail {
+    background: #fbfbfb;
+
+}
+
+.Donationtext .container {
+    background-color: #fff;
+
+}
+
+.Donationtext p {
+    font-size: 20px;
+    border: rgba(0, 0, 0, 0.096) 1px solid;
+    padding: 10px;
+}
+
+.map {
+    display: block;
+    margin: 20px 0px;
+}
+
+
+/* ----------------------------------------------donation page------------------------------------------------- */
+
+.donationbar {
+    background: #fbfbfb;
+}
+
+.Donationtitlepage {
+    text-align: center;
+    color: maroon;
+    padding: 50px 0px;
+
+}
+
+.orderDonationpage .container {
+    background-color: #f9f9f9;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+.paintapi {
+    background-color: #fff;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    font-size: 22px;
+    padding: 7px;
+}
+
+.blood-type {
+    text-align: center;
+    background-color: #f6f6f6;
+    border-radius: 50%;
+    font-size: 80px;
+    font-weight: bold;
+}
+
+.Donation-more {
+    padding: 30px 0px;
+    text-align: center;
+}
+
+.Donation-more button {
+    width: 80%;
+    background-color: #f6f6f6;
+    border: none;
+    height: 75px;
+    cursor: pointer;
+
+}
+
+
+.Donation-more button:hover {
+    background-color: #2d3e50;
+    color: white;
+
+}
+
+@media screen and (max-width: 768px) {
+    .paintapi {
+        font-size: 18px;
+    }
+
+    .blood-type {
+        font-size: 65px;
+    }
+
+    .Donation-more button {
+        height: 50px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .paintapi {
+        border-radius: 0;
+    }
+
+}
+
+
+
+/* ----------------------------------------------about us page------------------------------------------------- */
+.aboutpage {
+    background-color: #fbfbfb;
+    margin: 20px 0px 50px 0px;
+}
+
+.aboutbar {
+    background-color: #ffffff;
+    margin-bottom: 30px;
+}
+
+.aboutbody {
+    background-color: #fff;
+    padding: 50px 0px;
+    font-size: 20px;
+
+}
+
+.aboutbody img {
+    margin-bottom: 50px;
+}
+
+/* test */
+.donations-holder {
+    margin-top: 50px;
+}
+
+.testrow {
+    background: #fff;
+    border-top-right-radius: 100px;
+    border-bottom-right-radius: 100px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+}
+
+.bloodtypetest {
+    padding: 10px;
+}
+
+.bloodtypetest p {
+    background: #f8f8f8;
+    color: #282828;
+    font-size: 70px;
+    width: 90%;
+    border-radius: 50px;
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+.detaildonationtest {
+    font-size: 20px;
+}
+
+.testdet p {
+    margin-inline-start: -200px;
+}
+
+.donationbutttest button {
+    font-size: 20px;
+    width: 100%;
+    padding: 20px;
+    background-color: #f6f6f6;
+    color: #2d2d2d;
+    border: none;
+    margin-top: 20px;
+}
+
+.donationbutttest button:hover {
+    background-color: #2d3e50;
+    color: #fcfdff;
+
+}
+
+@media screen and (max-width: 1024px) {
+    .testdet p {
+        margin-inline-start: -105px;
+
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .bloodtypetest p {
+        font-size: 55px;
+        width: 100%;
+        padding: 20px 0px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .testdet p {
+        margin-inline-start: -40px;
+
+    }
+
+    .bloodtypetest p {
+        width: 145%;
+    }
+
+    .testtitile p {
+        margin-inline-start: 10px;
+
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .testrow {
+        border-radius: 100px;
+        margin-bottom: 20px;
+        padding-top: 10px;
+
+    }
+
+    .donationbutttest button {
+        width: 50%;
+        margin-bottom: 20px;
+        margin-top: 0px;
+    }
+
+    .bloodtypetest p {
+
+        margin: 0px 20px 0px 0px;
+    }
+
+    .testtitile p {
+        margin-inline-start: 50px;
+
+    }
+
+    .loginrowa .text-right {
+        text-align: center !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .bloodtypetest p {
+        font-size: 50px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+
+    .bloodtypetest p {
+        font-size: 40px;
+    }
+
+    .testtitile p {
+        margin-inline-start: 20px;
+    }
+}
+
+@media screen and (max-width: 395px) {
+
+    .detaildonationtest {
+        font-size: 15px;
+    }
+
+    .testtitile p {
+        margin-inline-start: 30px;
+    }
+
+    .testdet p {
+        margin-inline-start: 0px;
+    }
+
+    .bloodtypetest p {
+        width: 165%;
+    }
+}
+
+/*  reg page */
+/* ::-webkit-datetime-edit-year-field:not([aria-valuenow]),
+::-webkit-datetime-edit-month-field:not([aria-valuenow]),
+::-webkit-datetime-edit-day-field:not([aria-valuenow]) {
+    color: transparent;
+} */
+
+#selectdate input {
+    /* -webkit-appearance: none; */
+    width: 100%;
+    padding: 20px 10px;
+    font-size: 25px;
+    margin: 10px 0px;
+    background: #fbfbfb;
+    border: none;
+    position: relative;
+    z-index: 1;
+    opacity: .8;
+}
+
+#selectdate i {
+    position: absolute;
+    top: 210px;
+    left: 25px;
+    font-size: 50px;
+    opacity: 1;
+    z-index: .9;
+}
+
+#selectgover select {
+    -webkit-appearance: none;
+    width: 100%;
+    padding: 20px 10px;
+    font-size: 25px;
+    margin: 10px 0px;
+    background: #fbfbfb;
+    border: none;
+    position: relative;
+    z-index: 1;
+    opacity: .8;
+}
+
+#selectgover i {
+    position: absolute;
+    top: 415px;
+    left: 25px;
+    font-size: 50px;
+    opacity: 1;
+    z-index: .9;
+}
+
+#selecttown select {
+    -webkit-appearance: none;
+    width: 100%;
+    padding: 20px 10px;
+    font-size: 25px;
+    margin: 10px 0px;
+    background: #fbfbfb;
+    border: none;
+    position: relative;
+    z-index: 1;
+    opacity: .8;
+}
+
+#selecttown i {
+    position: absolute;
+    bottom: 410px;
+    left: 25px;
+    font-size: 50px;
+    opacity: 1;
+    z-index: .9;
+}
+#lastdon input {
+    /* -webkit-appearance: none; */
+    width: 100%;
+    padding: 20px 10px;
+    font-size: 25px;
+    margin: 10px 0px;
+    background: #fbfbfb;
+    border: none;
+    position: relative;
+    z-index: 1;
+    opacity: .8;
+}
+
+#lastdon i {
+    position: absolute;
+    bottom: 220px;
+    left: 25px;
+    font-size: 50px;
+    opacity: 1;
+    z-index: .9;
+}
